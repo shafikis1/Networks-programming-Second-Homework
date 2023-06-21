@@ -1,0 +1,22 @@
+{
+"Is Mount Kilimanjaro the world’s tallest peak? " : ["f", "Everest"],
+"The capital of Australia is Sydney." : ["f", "Canberra"],
+"Lightning is seen before it’s heard because light travels faster than sound." : ["t"],
+"Vatican City is a country." : ["t"],
+"The black box in a plane is black." : ["f", "Orange"],
+"Mercury’s atmosphere is made up of Carbon Dioxide." : ["f", "No atmosphere"],
+"If you add the two numbers on the opposite sides of the dice together, the answer is always 7." : ["t"],
+"Cleopatra was of Egyptian descent." : ["f", "Greek"],
+"A snail can sleep up to 1 month." : ["f", "Three years"],
+"The Trojan horse was used by the Greeks to mask their way into the city of Troy and win the war." : ["t"],
+"Coffee is made from berries." : ["t"],
+"Spider silk was once used to make guitar strings." : ["f", "Violin Strings"],
+"Mount Fuji is the highest mountain in Japan." : ["t"],
+"All mammals live on land." : ["f", "Dolphins are mamals under the sea"],
+"It takes nine months for an elephant to be born." : ["f", "22 Months"],
+"Google was initially called BackRub." : ["t"],
+"Light bulbs were the invention of Thomas Edison." : ["f", "He developed first practical one"],
+"In theory, it takes over 5,000 helium balloons to lift an average-sized human from the ground" : ["t"],
+"There are 6 naturally occurring noble gases in the periodic table of chemical elements." : ["t"],
+"The liver is the largest organ in the human body" : ["f", "The skin"]
+}

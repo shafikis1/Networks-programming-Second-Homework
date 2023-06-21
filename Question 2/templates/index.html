@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+	    <meta name="viewport" content="width=device-width initial-scale=1">
+	    
+	    <link rel="stylesheet" type="text/css" href="{{url_for('.static', filename='css/styles.css')}}">
+	    
+	    <title>Networks Programming Second Homework</title>
+
+	</head>
+
+	<body>
+
+	    <script type="text/javascript" src="{{url_for('.static', filename='js/jquery.min.js')}}"></script>
+	    <script type="text/javascript" src="{{url_for('.static', filename='js/bootstrap.bundle.min.js')}}"></script>
+	    
+
+		<div class="col-6 col-md-4">
+		
+				
+			<h2>Electronics and Communication Engineering</h2>
+			<div class="container" id="container">
+				<div class="form-container sign-in-container">
+					<form action="{{ url_for("handle_input")}}" method="post">
+						<h1>Sign in</h1>
+						<input name="studentname" placeholder="Name" />
+						<input name="studentnumber" placeholder="Number" />
+						<button>Apply</button>
+					</form>
+				</div>
+				<div class="overlay-container">
+					<div class="overlay">
+						<div class="overlay-panel overlay-right">
+							<h1>Hello, Student</h1>
+							<p>Enter your Name and Number.<br>
+							And proceed at your own risk
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<p>Networks Programming Second Homework</p>
+			</footer>
+					
+		</div>
+
+	</body>
+</html>
